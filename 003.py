@@ -1,6 +1,6 @@
-﻿import io
-import sys
-sys.stdout = io.TextIOWrapper(sys.stdout.buffer,encoding='utf-8')
+﻿#import io
+#import sys
+#sys.stdout = io.TextIOWrapper(sys.stdout.buffer,encoding='utf-8')
 import random
 import time
 secret = random.randint(1,9)
@@ -39,15 +39,8 @@ else:
                 print('嗨，小啦~小啦！！！')
 print('游戏结算，不玩啦，哈哈！！正确答案是',secret)
 print('5秒后退出游戏！！！')
-time.sleep(1)
-print(5)
-time.sleep(1)
-print(4)
-time.sleep(1)
-print(3)
-time.sleep(1)
-print(2)
-time.sleep(1)
-print(1)
-time.sleep(1)
-print(0)
+p = 5
+while p < 1
+	print(p)
+	p = p - 1
+	time.sleep(1)
