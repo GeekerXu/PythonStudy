@@ -39,8 +39,5 @@ else:
                 print('嗨，小啦~小啦！！！')
 print('游戏结算，不玩啦，哈哈！！正确答案是',secret)
 print('5秒后退出游戏！！！')
-p = 5
-while p < 1
-	print(p)
-	p = p - 1
-	time.sleep(1)
+time.sleep(5)
+	
