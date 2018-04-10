@@ -1,7 +1,4 @@
-﻿#import io
-#import sys
-#sys.stdout = io.TextIOWrapper(sys.stdout.buffer,encoding='utf-8')
-import random
+﻿import random
 import time
 secret = random.randint(1,9)
 print('-------------------------Geeker Xu------------------------')
