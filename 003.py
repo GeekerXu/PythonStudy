@@ -1,4 +1,4 @@
-#coding=utf-8
+# -*- coding: utf-8 -*-
 import random
 import time
 secret = random.randint(1,9)
